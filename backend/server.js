@@ -11,7 +11,7 @@ app.post("api/notes", (req, res) => {
 })
 
 app.put("api/notes/:id", (req, res) => {
-    res.status(201).json({message:"post updated succesfully!"})
+    res.status(200).json({message:"post updated succesfully!"})
 })
 
 app.delete("api/notes/:id", (req, res) => {
